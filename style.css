@@ -1,0 +1,321 @@
+/* Geral */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cabecalho */
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    margin-left: 15rem;
+}
+
+.item {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 1rem;
+}
+
+.login {
+    color: lightgrey;
+}
+
+.item:hover {
+    color: rgb(62, 255, 104);
+}
+
+/* Conteudo */
+
+/* Seção 1 */
+.experimente {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(223, 12, 139);
+    color: white;
+    padding: 2rem 0;
+}
+
+.texto {
+    width: 48%;
+}
+
+.titulo {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.descricao {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.btn-preto {
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-transparente {
+    border: 2px solid white;
+    width: 130px;
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.botao{
+    margin-bottom: 2rem;
+}
+
+.botao:hover {
+    font-size: 12.4px;
+}
+
+.info {
+    font-size: 11px;
+    line-height: 1rem;
+}
+
+/* Seção 2 */
+.mais-tocadas {
+    background-image: url(https://go.scdn.co/CHECKO-1384/wrapped-asset-1-min.svg);
+    background-position: right 0 bottom 0;
+    background-repeat: repeat-x;
+    overflow: auto;
+    background-color: #f46ebe;
+    color: #202f72;
+    text-align: center;
+    padding: 5rem;
+}
+
+.hashtag {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.titulo2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.descricao2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.info-retro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.item-retro {
+    margin: 5rem 1rem;
+    width: 250px;
+    text-align: center;
+}
+
+.album {
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    width: 180px;
+    height: 180px;
+}
+
+.text-retro {
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.text-retro strong{
+    font-weight: 700;
+}
+
+.name-retro {
+    margin-bottom: 0.5rem;
+    margin-left: 2.5rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Seção 3 */
+.pq-premium {
+    text-align: center;
+    padding: 5rem;
+}
+
+.titulo3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.info-premium {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-vantagens {
+    width: 142px;
+    height: 142px;
+    margin-bottom: 2rem;
+}
+
+.text-vantagem {
+    font-size: 20px;    
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.info-vantagem {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+/* Seção 4 */
+.planos {
+    background-color: #efefef;
+    text-align: center;
+    padding: 5rem;
+}
+
+.titulo4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5rem;    
+}
+
+.menu-planos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcoes {
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 0rem 1rem;
+    width: 250px;
+    text-align: start;
+}
+
+.mes-gratis {
+    background-color: rgb(13, 114, 234);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 1rem 0;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pag-unico {
+    color: rgb(13, 114, 234);
+    border: 2px solid rgb(13, 114, 234);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.name-plano {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.valor {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.num-contas {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.beneficio {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.info-planos {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1rem;
+    margin: 1rem 0;
+}
+
+.info-planos a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-escolha {
+    width: 100%;
+}
+
+.btn-escolha:hover {
+    padding: 1.1rem;
+    font-size: 12.4px;
+}
+
+/* Rodapé */
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 5rem;
+}
+
+.menu-rodape {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item-rdp {
+    margin: 1rem;
+}
+
+.item-rdp strong {
+    font-weight: 700;
+}
+
+.consideracoes {
+    text-align: center;
+    margin-top: 4rem;
+}
